@@ -143,8 +143,9 @@ $ cd mobile
 $ npm install
 
 # Execute a aplicação em modo de desenvolvimento
-$ 1 - npm start
-$ 2 - expo start
+$ npm start
+# or
+$ expo start
 
 Baixe o aplicativo Expo em seu aparelho celular;
 Use a opção 'ler QR Code' e aponte a câmera para o código que se abriu em seu terminal;
