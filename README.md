@@ -128,7 +128,27 @@ $ npm run start
 
 ### 📱Rodando a aplicação mobile 
 
-🚧 Em construção... 🚧
+```bash
+# Clone este repositório
+$ git clone https://github.com/Tonybsilva-dev/Ecoleta
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd ecoleta
+
+# Vá para a pasta da aplicação Front End
+$ cd mobile
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ 1 - npm start
+$ 2 - expo start
+
+Baixe o aplicativo Expo em seu aparelho celular;
+Use a opção 'ler QR Code' e aponte a câmera para o código que se abriu em seu terminal;
+Espere o bundle ser enviado e compilado e então, pronto!
+```
 
 ## Contribua para o projeto 😉
 
@@ -138,10 +158,6 @@ $ npm run start
 4. Envie as suas alterações: `git push origin my-feature`
 > Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](https://github.com/firstcontributions/first-contributions)
 
-
-## 📝 Licença
-
-Este projeto esta sobe a licença MIT.
 
 Antônio Bernardino 👋🏽 [Entre em contato!](https://www.linkedin.com/in/tony-silva/)
 
