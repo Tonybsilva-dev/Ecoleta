@@ -4,6 +4,7 @@
 
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/tgmarinho/nlw1?color=%2304D361">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 
   	
   <a href="https://twitter.com/tonybsilvaaa">
@@ -148,8 +149,12 @@ $ 2 - expo start
 Baixe o aplicativo Expo em seu aparelho celular;
 Use a opção 'ler QR Code' e aponte a câmera para o código que se abriu em seu terminal;
 Espere o bundle ser enviado e compilado e então, pronto!
-```
 
+
+```
+## :memo: License
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 ## Contribua para o projeto 😉
 
 1. Faça um **fork** do projeto.
