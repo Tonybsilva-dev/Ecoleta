@@ -9,7 +9,7 @@
   </a>
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/tonybsilva-dev/ecoleta">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-  <a href="https://github.com/tgmarinho/nlw1/stargazers">
+  <a href="https://github.com/tonybsilva-dev/ecoleta/stargazers">
     <img alt="Stargazers" src="https://img.shields.io/github/stars/tonybsilva-dev/ecoleta?style=social">
   </a>
   	
