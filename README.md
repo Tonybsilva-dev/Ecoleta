@@ -1,187 +1,193 @@
-<h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./img/banner.png" />
-</h1>
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+***
+***
+***
+*** To avoid retyping too much info. Do a search and replace for the following:
+*** github_username, repo_name, twitter_handle, email, project_title, project_description
+-->
 
+
+
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+
+
+<!-- PROJECT LOGO -->
+<br />
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/tonybsilva-dev/ecoleta?color=%2304D361">
-  <a href="https://github.com/Tonybsilva-dev/Ecoleta/commits/master">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/tonybsilva-dev/ecoleta">
-  </a>
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/tonybsilva-dev/ecoleta">
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-  <a href="https://github.com/tonybsilva-dev/ecoleta/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/tonybsilva-dev/ecoleta?style=social">
-  </a>
-  	
-  <a href="https://twitter.com/tonybsilvaaa">
-    <img alt="Siga no Twitter" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Ftgmarinho%2Fnlw1">
+  <a href="https://github.com/Tonybsilva-dev/Ecoleta">
+    <img src="https://i.imgur.com/aLqj7nc.png" alt="Logo">
   </a>
 
+  <h3 align="center">Ecoleta</h3>
+
+  <p align="center">
+    It is a way to connect companies and entities that collect organic and inorganic waste to people who need to dispose of their waste in an ecological way.
+    <br />
+    <a href="https://github.com/Tonybsilva-dev/Ecoleta/wiki"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/Tonybsilva-dev/Ecoleta">View Demo</a>
+    ·
+    <a href="https://github.com/Tonybsilva-dev/Ecoleta/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Tonybsilva-dev/Ecoleta/issues">Request Feature</a>
+  </p>
 </p>
 
 
-## 💻 Sobre o projeto
 
-♻️ Ecoleta - É uma forma de conectar empresas e entidades de coleta de resíduos orgânicos e inorgânicos a pessoas que precisam descartar seus resíduos de maneira ecológica.
-
-As empresas ou entidades poderão se cadastrar na plataforma web enviando:
-- uma imagem do ponto de coleta
-- nome da entidade, email e whatsapp
-- e o endereço para que ele possa aparecer no mapa
-- além de selecionar um ou mais ítens de coleta: 
-  - lâmpadas
-  - pilhas e baterias
-  - papéis e papelão
-  - resíduos eletrônicos
-  - resíduos orgânicos
-  - óleo de cozinha
-
-Os usuários terão acesso ao aplicativo móvel, onde poderão:
-- navegar pelo mapa para ver as instituições cadastradas
-- entrar em contato com a entidade através do E-mail ou do WhatsApp
-
-Projeto desenvolvido durante a **NLW - Next Level Week** oferecida pela [Rocketseat](rs).
-O NLW é uma experiência online com muito conteúdo prático, desafios e hacks onde o conteúdo fica disponível durante uma semana.
-
-
-## 🎨 Layout
-
-O layout da aplicação está disponível no Figma:
-
-<a href="https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta?node-id=136%3A546">
-  <img alt="Made by tonybsilva-dev" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
-</a>
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
 
 
-### Mobile
 
-<p align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./img/home-mobile.png" width="200px">
+<!-- ABOUT THE PROJECT -->
+## About The Project
+<!--
 
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./img/detail-mobile.svg" width="200px">
-</p>
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-### Web
-
-<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./img/web.svg" width="400px">
-</p>
-
-## 🛠 Tecnologias
-
-As seguintes ferramentas foram usadas na construção do projeto:
-
-- [Expo][expo]
-- [Node.js][nodejs]
-- [React][reactjs]
-- [React Native][rn]
-- [TypeScript][typescript]
+Here's a blank template to get started:
+**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
+`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
 
 
-## 🚀 Como executar o projeto
+### Built With
 
-Podemos considerar este projeto como sendo divido em três partes:
-1. Back End (pasta server) 
-2. Front End (pasta web)
-3. Mobile (pasta mobile)
+* []()
+* []()
+* []()
 
-💡 - Tanto o Front End quanto o Mobile precisam que o Back End esteja sendo executado para funcionar.
+-->
 
-### Pré-requisitos
-[Git](https://git-scm.com), [Node.js][nodejs]. 
-Editor Recomendado: [VSCode][vscode]
+<!-- GETTING STARTED -->
+## Getting Started
 
-### 🎲 Rodando o Back End (servidor)
+To get a local copy up and running follow these simple steps.
 
-```bash
-# Clone este repositório
-$ git clone https://github.com/Tonybsilva-dev/Ecoleta
+### Prerequisites
 
-# Acesse a pasta do projeto no terminal/cmd
-$ cd ecoleta
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-# Vá para a pasta server
-$ cd server
+### Installation
 
-# Instale as dependências
-$ npm install
-
-# Execute a aplicação em modo de desenvolvimento
-$ yarn dev or npm run dev
-
-# O servidor inciará na porta:3333 - acesse http://localhost:3333 
-```
-
-### 🧭 Rodando a aplicação web (Front End)
-
-```bash
-# Clone este repositório
-$ git clone https://github.com/Tonybsilva-dev/Ecoleta
-
-# Acesse a pasta do projeto no seu terminal/cmd
-$ cd ecoleta
-
-# Vá para a pasta da aplicação Front End
-$ cd web
-
-# Instale as dependências
-$ npm install
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm run start
-
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
-```
-
-### 📱Rodando a aplicação mobile 
-
-```bash
-# Clone este repositório
-$ git clone https://github.com/Tonybsilva-dev/Ecoleta
-
-# Acesse a pasta do projeto no seu terminal/cmd
-$ cd ecoleta
-
-# Vá para a pasta da aplicação Front End
-$ cd mobile
-
-# Instale as dependências
-$ npm install
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm start
-# or
-$ expo start
-
-Baixe o aplicativo Expo em seu aparelho celular;
-Use a opção 'ler QR Code' e aponte a câmera para o código que se abriu em seu terminal;
-Espere o bundle ser enviado e compilado e então, pronto!
+1. Clone the repo
+   ```sh
+   git clone https://github.com/Tonybsilva-dev/Ecoleta.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
 
 
-```
-## :memo: License
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
-## Contribua para o projeto 😉
+<!-- USAGE EXAMPLES -->
+## Usage
+<!--
 
-1. Faça um **fork** do projeto.
-2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
-3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
-4. Envie as suas alterações: `git push origin my-feature`
-> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](https://github.com/firstcontributions/first-contributions)
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+-->
+_For more examples, please refer to the [Documentation](https://example.com)_
 
 
-Antônio Bernardino 👋🏽 [Entre em contato!](https://www.linkedin.com/in/tony-silva/)
+<!-- ROADMAP -->
+## Roadmap
 
-[nodejs]: https://nodejs.org/
-[typescript]: https://www.typescriptlang.org/
-[expo]: https://expo.io/
-[reactjs]: https://reactjs.org
-[rn]: https://facebook.github.io/react-native/
-[yarn]: https://yarnpkg.com/
-[vscode]: https://code.visualstudio.com/
-[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
-[license]: https://opensource.org/licenses/MIT
-[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-[prettier]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
-[rs]: https://rocketseat.com.br
+See the [open issues](https://github.com/Tonybsilva-dev/Ecoleta/issues) for a list of proposed features (and known issues).
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+
+<!-- CONTACT -->
+### Autor
+---
+
+<a href="https://tonybsilvadev.medium.com/">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/54373473?v=4" width="150px;" alt=""/>
+ <br />
+ <sub><b>Antônio Bernardino da Silva</b></sub></a> <a href="https://tonybsilvadev.medium.com/" title="Medium".</a>
+
+
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/Tonybsilva-dev/Ecoleta.svg?style=for-the-badge
+[contributors-url]: https://github.com/Tonybsilva-dev/Ecoleta/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Tonybsilva-dev/Ecoleta.svg?style=for-the-badge
+[forks-url]: https://github.com/Tonybsilva-dev/Ecoleta/network/members
+[stars-shield]: https://img.shields.io/github/stars/Tonybsilva-dev/Ecoleta.svg?style=for-the-badge
+[stars-url]: https://github.com/Tonybsilva-dev/Ecoleta/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Tonybsilva-dev/Ecoleta.svg?style=for-the-badge
+[issues-url]: https://github.com/Tonybsilva-dev/Ecoleta/issues
+[license-shield]: https://img.shields.io/github/license/Tonybsilva-dev/Ecoleta.svg?style=for-the-badge
+[license-url]: https://github.com/Tonybsilva-dev/Ecoleta/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/tony-silva/
